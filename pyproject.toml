@@ -1,0 +1,19 @@
+[project]
+name = "convert_ttf_to_json"
+dynamic=["version"]
+description = "A Python Tool based on fontTools that can convert TTF font files into JSON files for use in three.js scenes."
+authors = [{name="maslke", email="maslke@outlook.com"}]
+license = { file = "LICENSE" }
+readme = "README.md"
+requires-python = ">=3.7"
+
+[build-system]
+requires = ["setuptools>=61.0", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools_scm]
+version_scheme = "post-release"
+local_scheme = "no-local-version"
+
+[tool.black]
+line-length = 80
