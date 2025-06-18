@@ -1,8 +1,8 @@
 from fontTools.ttLib import TTFont
 from fontTools.pens.svgPathPen import SVGPathPen
+import warnings
 import json
 from .util.util import commands_to_svg, extra_settings
-
 
 class TTF2JSON:
     def __init__(self, ttf_path: str):
