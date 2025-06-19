@@ -1,7 +1,7 @@
 [project]
-name = "convert_ttf_to_json"
+name = "ttf2json"
 dynamic=["version"]
-description = "A Python Tool based on fontTools that can convert TTF font files into JSON files for use in three.js scenes."
+description = "A Python library for converting .ttf files to JSON for use with Three.js, supporting both CLI and programmatic usage"
 authors = [{name="maslke", email="maslke@outlook.com"}]
 license = { file = "LICENSE" }
 readme = "README.md"
